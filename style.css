@@ -1,0 +1,74 @@
+
+#board{
+     padding-top: 3em;
+     text-align: center;
+     
+}
+
+.row{
+   margin-left:auto;
+    margin-right:auto;
+     width: 302px;
+clear:right;
+}
+.row .top{
+     
+     float: left;
+     height: 100px;
+    width: 100px;
+     border-bottom: 1px black solid;
+    
+}
+.row .middle{
+     float: left;
+     height: 100px;
+    width: 100px;
+}
+.row .bottom{    
+    float: left;
+     height: 100px;
+    width: 100px;
+     border-top: 1px black solid;
+}
+
+.left{
+     border-right: 1px black solid;
+}
+
+.right{
+  border-left: 1px black solid;
+}
+
+
+
+.row .top.left{
+    cursor: pointer;
+}
+.row .top.center{
+    cursor: pointer;
+}
+.row .top.right{
+    cursor: pointer;
+}
+
+
+.row .middle.left{
+    cursor: pointer;
+}
+.row .middle.center{
+    cursor: pointer;
+}
+.row .middle.right{
+    cursor: pointer;
+}
+
+
+.row .bottom.left{
+    cursor: pointer;
+}
+.row .bottom.center{
+    cursor: pointer;
+}
+.row .bottom.right{
+    cursor: pointer;
+}
